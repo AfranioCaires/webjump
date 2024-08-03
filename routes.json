@@ -1,0 +1,4 @@
+{
+  "/api/V1/categories/list": "/list",
+  "/api/V1/categories/:id": "/:id"
+}
