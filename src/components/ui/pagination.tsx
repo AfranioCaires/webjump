@@ -29,7 +29,7 @@ const Pagination = ({
         onClick={() => handlePageChange(currentPage - 1)}
         disabled={currentPage === 1}
       >
-        <img src={arrowLeft} alt="" />
+        <img src={arrowLeft} alt="voltar" />
       </button>
 
       <div className="flex gap-4">
@@ -51,7 +51,7 @@ const Pagination = ({
         onClick={() => handlePageChange(currentPage + 1)}
         disabled={currentPage === totalPages}
       >
-        <img className="fill-teal1" src={arrowRight} alt="" />
+        <img className="fill-teal1" src={arrowRight} alt="avançar" />
       </button>
     </div>
   );
