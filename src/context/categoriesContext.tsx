@@ -6,12 +6,7 @@ import {
   ReactNode,
 } from "react";
 import { client } from "../services/api/api";
-
-export interface Category {
-  id: number;
-  name: string;
-  path: string;
-}
+import { Category } from "../services/api/interfaces/category";
 
 interface CategoriesContextType {
   categories: Category[];

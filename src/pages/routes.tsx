@@ -1,15 +1,15 @@
 import { Link, createBrowserRouter, useParams } from "react-router-dom";
-import App from "../App.tsx";
 import Error404 from "./error404/error404.tsx";
 import Home from "./home/home.tsx";
 import Contact from "./contact/contact.tsx";
 import Product from "./product/product.tsx";
 import { useCategories } from "../context/categoriesContext.tsx";
+import Template from "./template.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Template />,
     errorElement: <Error404 />,
     handle: {
       crumb: () => <Link to="/">Página inicial</Link>,

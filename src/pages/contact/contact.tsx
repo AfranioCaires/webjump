@@ -1,4 +1,5 @@
 import AsideNav from "../../components/asideNav";
+import Teste from "../../hooks/teste";
 
 function Contact() {
   return (
@@ -24,6 +25,7 @@ function Contact() {
           eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
           voluptatem.
         </p>
+        <Teste />
       </section>
     </>
   );
